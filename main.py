@@ -11,7 +11,7 @@ from monster import Monster
 from robot import Robot
 from teleport import Teleport
 
-
+## Monkey patch ##
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
